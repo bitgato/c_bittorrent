@@ -13,7 +13,7 @@
 #define SIMULBLOCKS 5 // Max number of blocks to request simultaneously
 
 #define TIMEOUT 3 // seconds (only used for connecting)
-#define COMMTIMEOUT 100 // useconds (used while communicating with peers)
+#define COMMTIMEOUT 10000 // useconds (used while communicating with peers)
 
 #define PSTR "BitTorrent protocol"
 #define PSTRLEN 19

@@ -39,8 +39,8 @@ for this project.
 There's a macro in `p2p.h` called `COMMTIMEOUT`. It is used as the
 timeout (microseconds) for the `select` call in the main communication loop.
 Increasing it reduces the CPU usage but can slow down the download. I set it
-to 100 microseconds as default. You can change it as per your needs. I found
-that setting it to 1000 works fairly well too.
+to 10000 microseconds as default. You can change it as per your needs. I found
+that setting it to 1000 or 100 works fairly well too.
 
 In the same header file, there's also `SIMULBLOCKS`. It's the number of blocks
 we request to a peer simultaneously. Increasing it can increase the download
