@@ -12,10 +12,10 @@ DEPS = $(addprefix $(IDIR)/, $(_DEPS))
 
 .PHONY: all clean
 
-all: extorrent
+all: c_bittorrent
 
-extorrent: $(SOURCE) $(DEPS)
+c_bittorrent: $(SOURCE) $(DEPS)
 	$(CC) $(CFLAGS) -I$(IDIR) $(SOURCE) -o $@ $(LIBS)
 
 clean:
-	rm -f extorrent
+	rm -f c_bittorrent

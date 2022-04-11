@@ -8,9 +8,9 @@
 #include "p2p.h"
 
 const char *info =
-"extorrent - an experimental bare-bones bittorrent client";
+"c_bittorrent - an experimental bare-bones bittorrent client";
 const char *usage =
-"Usage: extorrent TORRENTFILE [FILENAME] [OPTION]\n"
+"Usage: c_bittorrent TORRENTFILE [FILENAME] [OPTION]\n"
 "\n"
 "-v --verbose    explain what is being done\n"
 "-h --help       print this help message and exit";

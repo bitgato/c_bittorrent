@@ -1,4 +1,4 @@
-# extorrent
+# c_bittorrent
 An experimental bare-bones bittorrent client for linux written in C.
 For concurrency, it uses non-blocking sockets on a single thread.
 Implements only the most necessary things from
@@ -18,7 +18,7 @@ or
 
 ### usage
 ```
-extorrent TORRENTFILE [FILENAME] [OPTION]
+c_bittorrent TORRENTFILE [FILENAME] [OPTION]
 
 -v --verbose    explain what is being done
 -h --help       print this help message and exit
