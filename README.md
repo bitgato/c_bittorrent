@@ -1,4 +1,6 @@
 # c_bittorrent
+[![CodeFactor](https://www.codefactor.io/repository/github/bitgato/c_bittorrent/badge/main)](https://www.codefactor.io/repository/github/bitgato/c_bittorrent/overview/main)
+
 An experimental bare-bones bittorrent client for linux written in C.
 For concurrency, it uses non-blocking sockets on a single thread.
 Implements only the most necessary things from
